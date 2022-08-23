@@ -11,8 +11,8 @@ vergleichen.
 
 func main() {
 	type äpfel int
-	type birnen int
+	type birnen float32
 	a := äpfel(10)
-	b := birnen(5)
-	fmt.Println(a + b)
+	b := birnen(5.1)
+	fmt.Println(a + äpfel(b))
 }

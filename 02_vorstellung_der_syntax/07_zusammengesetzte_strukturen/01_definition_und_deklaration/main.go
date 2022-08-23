@@ -23,4 +23,7 @@ func main() {
 
 	fmt.Println(a)
 	fmt.Println(b)
+
+	c := adresse{"Teststr.", "Teststadt"}
+	fmt.Println(c)
 }
