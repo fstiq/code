@@ -45,8 +45,28 @@ func main() {
 	a, b = b, a // Werte tauschen
 	fmt.Println("a:", a)
 	fmt.Println("b:", b)
+
+	// my test
+	fmt.Println(add(2, 4))
+
+	var test []int
+	test = append(append(test, 12), 23)
+	test = append(test, 123, 122, 333)
+	fmt.Println(test)
+
+	type test2 struct {
+		id   int
+		name string
+	}
+	var tUser *test2
+	fmt.Println(tUser)
+
 }
 
 func getName() string {
 	return "Andreas"
+}
+
+func add(a int, b int) int {
+	return a + b
 }

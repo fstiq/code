@@ -19,8 +19,8 @@ func main() {
 	fmt.Println(add2(c))
 	// Output:
 	// 4
-	var v = 2.0
-	fmt.Println(add2(v))
+	//var v = 2.0
+	fmt.Println(add2(2))
 	// Output:
 	// Fehler beim Kompilieren:
 	// cannot use v (type float64) as type int in argument to add2

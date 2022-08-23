@@ -19,7 +19,16 @@ const (
 
 const b = 10 + 4 // %*Deklaration über einen Ausdruck*)
 
+const (
+	c = b + 2
+	d = "ase"
+)
+
 func main() {
 	fmt.Println(a)
 	fmt.Println(maxBreite, maxLaenge)
+
+	fmt.Println(b)
+
+	fmt.Println(c, "|", d)
 }
